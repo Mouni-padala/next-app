@@ -1,0 +1,39 @@
+/* Sidebar.css */
+.sidebar {
+    width: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile,
+  .dashboard,
+  .content {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dropdown {
+    display: none;
+    padding: 10px;
+  }
+  
+  .profile:hover .dropdown,
+  .dashboard:hover .dropdown {
+    display: block;
+  }
+  .head-tag{
+    color: #808080;
+  }
+  .profile-tag{
+    font-size:13px;
+    color: gray;
+  }
+  .profile-content{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+  }
+  .profile-details{
+    margin-right: 90px;
+  }
