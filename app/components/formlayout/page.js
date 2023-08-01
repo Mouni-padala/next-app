@@ -1,6 +1,7 @@
+import './formlayout.css';
 const FormLayout=()=>{
     return(
-        <div>
+        <div className="ui_kit">
 Form Layout Page
         </div>
     )

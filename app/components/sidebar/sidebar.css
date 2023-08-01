@@ -1,9 +1,10 @@
 /* Sidebar.css */
 .sidebar {
-    width: 300px;
+    width: 280px;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
+    /* overflow-y: scroll; */
   }
   
   .profile,
@@ -13,6 +14,11 @@
     border-bottom: 1px solid #ccc;
   }
   
+  .user-name{
+font-size: 14px;
+color:black;
+  }
+
   .dropdown {
     display: none;
     padding: 10px;
@@ -37,3 +43,31 @@
   .profile-details{
     margin-right: 90px;
   }
+ .profile-option{
+  display: flex;
+  justify-content: space-between;
+  /* gap: -10px; */
+ }
+ .inner-profile{
+  margin-right: 160px;
+ }
+ .profile-option2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+ }
+ .dashboard-title{
+  margin-top: -20px;
+  margin-left: 25px;
+ }
+ .inner-dashboards{
+  margin-top: -20px;
+  margin-left: 23px;
+ }
+ .inner-dashboards2{
+  margin-top: -23px;
+  margin-left: 23px;
+ }
+ .banking{
+  margin-top: 15px;
+ }

@@ -10,6 +10,7 @@
   background-color:#714f98;
   color: white;
   padding: 10px;
+  /* position: fixed; */
 }
 
 .navbar-left {
@@ -33,11 +34,43 @@
 .icon{
   /* Add any custom styles for the icons here */
 }
-.icon-content{
-  color: #fff;
+.icon-content,
+.icon-content svg{
+  color: #fff !important;
 }
 .icon-main-wrapper{
   display: flex;
   align-items: center;
   gap:5px;
+}
+.main-wrapper{
+  display: flex;
+  width: 100%;
+
+}
+.sidebar-uikit{
+  width: 22.5%;
+}
+.main-wrapper-block{
+  width: 77.5%;
+}
+.img-tag{
+  position:absolute;
+  top: 85px;
+  left: 22%;
+}
+.img-tag2{
+  position:absolute;
+  top: 85px;
+  left: 42%;
+}
+.img-tag3{
+  position:absolute;
+  top: 85px;
+  left: 61.2%;
+}
+.img-tag4{
+  position:absolute;
+  top: 85px;
+  left: 81%;
 }
