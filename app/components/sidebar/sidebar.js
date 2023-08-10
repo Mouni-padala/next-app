@@ -1,12 +1,23 @@
 import "./sidebar.css";
 import Link from "next/link";
+import Image from 'next/image';
+import formlayout from '/public/layout.svg';
+import input from '/public/input.svg';
+import product from '/public/product.svg';
+import invalid from '/public/invalid.svg';
+import button from '/public/button.svg';
+import table from '/public/table.svg';
+import list from '/public/list.svg';
+import login from '/public/login.svg';
+import invoice from '/public/invoice.svg';
+import help from '/public/help.svg';
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="profile">
         <div className="profile-info">
           <div className="profile-content">
-            <div>
+            <div className="image-content" >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtcO4YmGkZhf8rEs8DdPZYnLlPCpOF1pTMZMYf1lDHzaQFAqjUKPzRFdZaqDRuBuYKHo&usqp=CAU"
                 height="30px"
@@ -170,28 +181,37 @@ const Sidebar = () => {
       </div>
       <div className="head-tag">UI KIT</div>
       <br />
+      <Image src={formlayout} alt="layout"/>
       <Link className="link-tag" href="/components/formlayout">
         Form Layout
       </Link>
       <br />
-      <Link href="/components/dashboard">Input</Link>
+      <Image src={input} alt="input"/>
+      <Link className="link-tag" href="/components/dashboard">Input</Link>
       <br />
-      <Link href="/floatlabel">Float Label</Link>
+      <Image src={product} alt="product"/>
+      <Link className="link-tag" href="/components/product">Products</Link>
       <br />
-      <Link href="/formlayout">Invalid State</Link>
+      <Image src={invalid} alt="invalid"/>
+      <Link className="link-tag" href="/formlayout">Invalid State</Link>
       <br />
-      <Link href="/button">Button</Link>
+      <Image src={button} alt="button"/>
+      <Link className="link-tag" href="/button">Button</Link>
       <br />
-      <Link href="/table">Table</Link>
+      <Image src={table} alt="table"/>
+      <Link className="link-tag" href="/table">Table</Link>
       <br />
-      <Link href="/list">List</Link>
+      <Image src={list} alt="list"/>
+      <Link className="link-tag" href="/components/list">List</Link>
       <br />
-      <Link href="/tree">Tree</Link>
+      <Image src={login} alt="login"/>
+      <Link className="link-tag" href="/components/login">Login</Link>
       <br />
-      <Link href="/panel">Panel</Link>
-      <br />
+      <Image src={invoice} alt="invoice"/>
+      <Link className="link-tag" href="/components/invoice">Invoice</Link><br/>
+      <Image src={help} alt='help'/>
+      <Link className="link-tag" href="/panel">Help</Link>
     </div>
   );
 };
-
 export default Sidebar;

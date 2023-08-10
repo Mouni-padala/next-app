@@ -1,0 +1,80 @@
+.invoice{
+    position:absolute;
+top: 65px;
+/* left: 22.5%; */
+left:19%;
+color: #222;
+height: 100vh;
+overflow-y: auto;
+
+width:80% ;
+padding-bottom: 62px;
+
+
+}
+.icon-tag{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.title{
+    font-size: 40px;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap:200px;
+    border: 1px solid #c090f8;
+    padding: 50px;
+    margin-top: 10px;
+    background-color:#c090f8;
+
+}
+
+.address{
+    font-size: smaller;
+}
+.invoice-title{
+    font-size: 30px;
+}
+.date-tag{
+    font-size: smaller;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+  }
+  .table-values{
+  height: 400px;
+  }
+  .footer-tag{
+    color: gray;
+    background-color: rgb(228, 221, 221);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(228, 221, 221) ;
+    /* padding: 10px; */
+    margin-top: 10px;
+  }
+
+  .footer-icons{
+  
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+  }
+  .footer-title{
+    font-size: 40px;
+  }
+  .twitter-img{
+    margin-top: 6px;
+  }
+  .git-img{
+    margin-top: 4px;
+  }
+  .total{
+    border-collapse: collapse;
+  }

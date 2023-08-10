@@ -1,0 +1,85 @@
+{
+   "products": [
+     {
+       "product_name": "T-shirt",
+       "product_category": "Clothing",
+       "product_code": "PD01",
+       "product_price": 700,
+       "product_image": "https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/4B8A539978524646995DA2586B48A503/10236558_11.jpg",
+       "product_description": "A cotton t-shirt which is gray color,Size is medium."
+     },
+     {
+       "product_name": "umbrella",
+       "product_category": "Rain Gear",
+       "product_code": "PD02",
+       "product_price": 400,
+       "product_image": "https://img.freepik.com/free-vector/pink-realistic-umbrella_1284-6150.jpg",
+       "product_description": "A beautiful umbrella,The color is pink."
+     },
+     {
+       "product_name": "flute",
+       "product_category": "Instrument",
+       "product_code": "PD03",
+       "product_price": 400,
+       "product_image": "https://www.kalyanimusical.com/wp-content/uploads/2021/07/6-HOLES-FLUTE.jpg",
+       "product_description": "A flute to make you relax, only under 400 rs."
+     },
+     {
+       "product_name": "Bag",
+       "product_category": "Backpacks",
+       "product_code": "PD04",
+       "product_price": 1500,
+       "product_image": "https://media.istockphoto.com/id/184797262/photo/red-backpack-standing-on-white-background.jpg?s=612x612&w=0&k=20&c=XG0uyCVPt0eG2lDPXtoFCbHAzH2lWTTbeaXoqZhsaO4=",
+       "product_description": "A perfect collage bag, The color is red."
+     },
+     {
+       "product_name": "Mouse",
+       "product_category": "Peripherals",
+       "product_code": "PD05",
+       "product_price": 1000,
+       "product_image": "https://m.media-amazon.com/images/I/61hzuoXwjqL.jpg",
+       "product_description": "A computer mouse that detects two-dimensional relative surface of 1000 rs."
+     },
+     {
+       "product_name": "Chair",
+       "product_category": "Furniture",
+       "product_code": "PD06",
+       "product_price": 1000,
+       "product_image": "https://cdn.moglix.com/p/I/W/K/d/MINIWKQ1IGS84-medium.jpg",
+       "product_description": "A red color stylish and strong chair which is more comfortable."
+     },
+     {
+       "product_name": "Rain coat",
+       "product_category": "Clothing",
+       "product_code": "PD07",
+       "product_price": 2000,
+       "product_image": "https://openroad.in/wp-content/uploads/2021/04/RynoxH2GoPro3RainJacketHi-VizGreen01_1200x.webp",
+       "product_description": "A rain coat which is green color, Must-have for everyone."
+     },
+     {
+       "product_name": "decorative plant",
+       "product_category": "Home Decor",
+       "product_code": "PD08",
+       "product_price": 2000,
+       "product_image": "https://5.imimg.com/data5/RG/BB/PY/SELLER-86296212/decorative-indoor-plants-500x500.jpg",
+       "product_description": "A beautiful and good looking decorative plant for your home."
+     },
+     {
+       "product_name": "cricket kit",
+       "product_category": "Cricket Equipment",
+       "product_code": "PD09",
+       "product_price": 3000,
+       "product_image": "https://rukminim1.flixcart.com/image/300/300/kv6zvrk0/kit/h/h/u/ceat-hitman-rohit-sharma-junior-cricket-set-of-5-no-ideal-for-10-original-imag857yxgrytphg.jpeg",
+       "product_description": "A super cricket kit for you under 3000 rs."
+     },
+     {
+       "product_name": "shoes",
+       "product_category": "Footwear",
+       "product_code": "PD10",
+       "product_price": 4000,
+       "product_image": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(1000,1000)",
+       "product_description": "A comfortable shoes,The color is blue."
+     }
+   ]
+ }
+ 

@@ -1,10 +1,15 @@
 /* Sidebar.css */
 .sidebar {
-    width: 280px;
+    width: 246px;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
+position: fixed;
+top:60px;
+left:0px;
+height: 100vh;
+padding: 0px 0px 65px 15px;
   }
   
   .profile,
@@ -37,11 +42,11 @@ color:black;
   }
   .profile-content{
     display: flex;
-    justify-content: space-between;
-    gap:5px;
+    /* justify-content: space-between; */
+    gap:10px;
   }
   .profile-details{
-    margin-right: 90px;
+    /* margin-right: 90px; */
   }
  .profile-option{
   display: flex;
@@ -70,4 +75,10 @@ color:black;
  }
  .banking{
   margin-top: 15px;
+ }
+
+ .link-tag{
+ margin-left: 30px;
+ /* margin-bottom: 50px; */
+ margin-top: -19px;
  }
